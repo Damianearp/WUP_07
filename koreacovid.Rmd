@@ -82,4 +82,4 @@ As seen from the inferential data above, the population of male and female do pl
 
 ## Conclusions
 
-From looking at the data above and running the Fisher test, we can conclude During the Covid-19 pandemic. Sex does NOT play a role on whether you die faster as a male or female. Although the population Kill ration of Korea shows Men have a higher death toll than females do, There were more females presented in the data table. I have found this very interesting and I would wonder if the environment has a critical role in the spread as well as work and transportation.
+From looking at the data above and running the Fisher test, we can conclude During the Covid-19 pandemic. Sex does NOT play a role on whether you die faster as a male or female. Although the population Kill ration of Korea shows Men have a higher death toll than females do, There were more females presented in the data table. I have found this very interesting and I would wonder if the environment has a critical role in the spread as well as work and transportation. 
