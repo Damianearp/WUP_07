@@ -35,8 +35,22 @@ From the data we see, there are two different data strands of sex, one with a lo
 
 ## Graphical results - use ggplot commands to do this  
 
+```{r}
+dd2 <- kRdata %>% group_by(result,Sex) %>% summarize(count=n()) %>% mutate(prcnt=count/sum(count))
 
 
+# the group_by followed by summarize(count=n())
+
+basicC <- ggplot(dd2,aes(x=result,y=count,fill=Sex))
+basicC + geom_bar(stat="identity",position="dodge")
+
+#Now for percentage plot
+
+basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=Sex)) 
+basicCC + geom_bar(stat="identity", position = "dodge")
+```
+
+from the graphed results above, we can see that more Females were caught with the disease versus Men, however when looking at the Death toll, it  claims that although more Females have gotten Covid, more Men have perished .
   
 
 
