@@ -27,6 +27,7 @@ state of a patient must be died or alive - we adjust that as well
   
 # Your Question - Is dying independent of sex?
 
+From the data we see, there are two different data strands of sex, one with a lower case 's' and a capital 'S'. We will be using data Sex with a capital 'S', its more appropriate so we can work with only F and M variables (Female and Male respectively)
 
 
 
