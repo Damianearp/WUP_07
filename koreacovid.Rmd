@@ -71,7 +71,13 @@ The data above shows that between Male and Female KR (kill ratio), looking at th
 
 ## Inferential results 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
+As seen from the inferential data above, the population of male and female do play a critical role when determining the death toll of each sex. Females with a population of 1831 show that of those people, 25 of them have died. on the other hand, the male population shows 1411 men; that is 420 less people than the females. of those 1411 people, 30 of the men died, making the likelihood of a male dying 2.3 times greater than females.
 
 
 ## Conclusions
