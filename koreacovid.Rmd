@@ -60,6 +60,14 @@ from the graphed results above, we can see that more Females were caught with th
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+
+The data above shows that between Male and Female KR (kill ratio), looking at the dead people, Males have perished more then double the Females, as shown females being 1.4% versus the males 3% 
+
 
 ## Inferential results 
 
